@@ -40,7 +40,7 @@ Create a new `log-file.js` file in which you will log your daily work:
 const today = [
   {
     issueId: 'ISSUE-55',
-    timeSpent: '1h',
+    timeSpent: '1h30m',
     comment: `
     - comment what has been done`
   }
