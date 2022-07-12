@@ -11,7 +11,7 @@ const token = process.env.JIRA_TOKEN;
   // TODO error handling
   const jira = await Jira({ host, token })
 
-  const todayReport = parseLogWork(today, {})
+  const todayReport = parseLogWork(today)
   const todoReport = parseLogWork(todo)
 
   const logWorkPromises = today.map((options) => jira.addWorkLog(options))
