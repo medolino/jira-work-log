@@ -1,0 +1,30 @@
+# General
+# =======
+*.log
+*.pid
+*.gz
+*.tmp
+*.bak
+*.swp
+
+# Node and related ecosystem
+# ==========================
+node_modules/
+.nodemonignore
+.idea/
+coverage/
+.nyc_output/
+
+# Application and assets
+# ======================
+.env*
+logs/
+.jest/
+log-file.js
+
+# Editors
+# =======
+.vscode/
+.sublime-project
+*.sublime-project
+*.sublime-workspace

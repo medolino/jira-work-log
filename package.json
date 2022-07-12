@@ -1,0 +1,23 @@
+{
+  "name": "jira-work-log",
+  "version": "0.0.1",
+  "description": "NodeJS tool for parsing JS work log file, sending work log to Jira and preparing markdown report",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "name": "Miran Setinc - Lino",
+    "url": "https://github.com/medolino"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "standard": "^17.0.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "node-fetch": "^3.2.6"
+  }
+}
