@@ -32,6 +32,7 @@ Create a new `.env` configuration file with Jira host and access token:
 
 ```env
 JIRA_HOST=https://jira-url
+JIRA_USERNAME=demo@some-email.com
 JIRA_TOKEN=accessToken
 ```
 
@@ -40,7 +41,7 @@ Create a new `log-file.js` file in which you will log your daily work:
 const today = [
   {
     issueId: 'ISSUE-55',
-    timeSpent: '1h30m',
+    timeSpent: '1h 30m',
     comment: `
     - comment what has been done`
   }
@@ -69,8 +70,9 @@ node start
 
 After successful execution, you should receive a markdown report like the one below:
 ```bash
+-----------------------------
 # Report
-
+-----------------------------
 ## Today
 ISSUE-55
     - comment what has been done
@@ -78,4 +80,14 @@ ISSUE-55
 ## Todo
 ISSUE-56
     - plan for the future days
+
+-----------------------------
+# Results
+-----------------------------
+Success: ISSUE-55
+
+-----------------------------
+# Total logged time
+-----------------------------
+Logged time: 1h 30m
 ```
