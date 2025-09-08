@@ -18,6 +18,7 @@ coverage/
 # Application and assets
 # ======================
 .env*
+!.env.example
 logs/
 .jest/
 log-file.js
