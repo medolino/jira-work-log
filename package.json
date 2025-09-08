@@ -1,6 +1,6 @@
 {
   "name": "jira-work-log",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "NodeJS tool for parsing JS work log file, sending work log to Jira and preparing markdown report",
   "type": "module",
   "main": "src/index.js",
