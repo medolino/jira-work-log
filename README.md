@@ -91,3 +91,7 @@ Success: ISSUE-55
 -----------------------------
 Logged time: 1h 30m
 ```
+
+## Change Log
+
+See [CHANGELOG.md](CHANGELOG.md)
